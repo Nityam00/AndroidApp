@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Restraunt_Application"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF00"
+    android:visibility="visible">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nityam's Restaurant"
+        android:background="#00CED1"
+        android:textSize="54sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is my Restaurant.$$$ Located in the historic Salt District atop Lodi Hill, Red Penny offers an eclectic lunch and dinner menu thatreflects the cultural traditions of the two owners: Peruvian recipes handed down to Maria Gonzalez-Perez, and    American country classics from co-owner Betsy Field’s family farm in Monroe. Patrons call the fusion of theirstyles “inspired comfort food.” The menu changes monthly, featuring seasonally available local ingredients."
+        android:textSize="18sp"
+        android:background="#00FF00"/>
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textSize="34sp"
+        android:background="#00CED1"/>
+        android:layout_margin="8dp"/>
+    <TextView
+        android:id="@+id/Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        android:background="#00FF00"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Menu"
+        android:background="#00CED1"
+        android:onClick="submitOrder"/>
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        android:background="#00FF00"/>
+    <Button
+        android:id="@+id/submitOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#00CED1"
+        android:text="Order"
+        android:onClick="submitOrder1"/>
+
+</LinearLayout>
